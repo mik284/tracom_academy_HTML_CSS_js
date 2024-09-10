@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Tracom Academy website</title>
     </head>
-    <body>
+    <body style="background-image: url('wp9237143-alone-pc-wallpapers.jpg');">
+        
+        
         <header class="main-header">
             <nav class="main-nav">
                 <img src="Assets/tracom_services_cover.jpg" alt="tracom-logo" class="main-logo" >
@@ -19,7 +21,50 @@
             </nav>            
         </header>
 
+        <div class="con">
+
+        <form action= "mailto:freecomwaniki@gmail.com" method = "post" enctype= "text/plain" align = "center">
+            <h2><u> CONTACT FORM</u></h2>
+                
+                <label for = "name"> Name </label>
+                    <input type = "text" id = "name" name ="name"><br><br>
+                <label for = "Email">Email Address</label>
+                    <input type = "text" id = "Email" name ="Email address"> <br><br>
+                <label for = "phonenumber">Mobile Number </label>
+                    <input type = "text" id = "phonenumber" name ="Mobile Number"><br><br>
+                <label for = "Town">Town </label>
+                    <input type = "text" id = "Town" name ="Town"><br><br>
+                    
+                Gender:
+                <label for = "Male">Male </label>
+                    <input type = "radio" id = "Male" name ="Gender" value = "Male">
+                <label for = "Female">Female</label>
+                    <input type = "radio" id = "Female" name ="Gender" value="Female"><br><br>
+                Please select your country
+                
+                <select name = "country">
+                    <option value = "Kenya">Kenya</option>
+                    <option value = "Uganda">Uganda</option>
+                    <option value = "Tanzania">Tanzania</option>
+                    <option value = "Burundi">Burundi</option>
+                    <option value = "Congo DRC">Congo DRC</option>
+                    <option value = "Senegal">Senegal</option>
+                </select><br><br>
+                <p>
+                Please leave a comment:<br>
+                <textarea name = "Message" rows = "5" cols ="50">
+                </textarea>
+                </p>
+                <p>
+                    <button type ="submit">Submit</button>
+                    <button type ="cancel">Cancel</button>
+                    
+                </p>
+                
+        </form>
+    </div>
+
        </body>
         
-        </body>
+        
         </html>
