@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <title>Tracom Academy website</title>
     </head>
     <body>
@@ -19,7 +21,56 @@
             </nav>            
         </header>
 
-       </body>
-        
+
+        </body>
+        <section id="contact-section">
+            <div class="box-wrapper">
+                <div class="info-wrap">
+                    <h2 class="info-title">OUR LOCATION</h2>
+                    <div class="location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2480.9862018668096!2d36.78003770143693!3d-1.2480226026526096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x182f178f5812c587%3A0x74b11285536e78ff!2sSpringette%20office%20park%2C%20Nairobi!3m2!1d-1.248148!2d36.782212799999996!5e1!3m2!1sen!2ske!4v1725992067460!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <ul class="info-details">
+                        <li>
+                            <i class='bx bxs-phone'></i>
+                            <span>Phone:</span> <a href="tel:+ 1235 2355 98">+ 1235 2355 98</a>
+                        </li>
+                        <li>
+                            <i class='bx bxs-paper-plane'></i>
+                            <span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+                        </li>
+                    </ul>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-linkedin-square'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                    </ul>
+                </div>
+                <div class="form-wrap">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <h2 class="form-title">Send us a message</h2>
+                        <div class="form-fields">
+                            <input type="hidden" name="access_key" value="8763f32b-cd73-4999-8c54-c95e7250cc97">
+                            <div class="form-group">
+                                <input type="text" class="fname" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="lname" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="email" placeholder="Mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="phone" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="" placeholder="Write your message"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" value="Send Message" class="submit-button">
+                    </form>
+                </div>
+            </div>
+        </section>
         </body>
         </html>
