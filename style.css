@@ -39,9 +39,9 @@
 }
 
 /* styles.css */
+/* The background image is repeated it looks cooler */
 body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcg7wUn-18q_ApZmNJwitxIHk0bG5GCWAMhA&s);
-    background-repeat: no-repeat;
    }
 .contact-container {
     background-color: #ffffff;
