@@ -31,7 +31,7 @@
                     <input type="cont">
                     <label for="Message">Message</label>
                     <input type="text" placeholder="Message">
-                    <button type="submit" onclick="myfunction()"> submit</button>
+                    <button type="submit" id="myButton"> submit</button>
                 </form>
             </div>
             <div class="contact-info">
@@ -67,10 +67,12 @@
        </body>
         
        <script>
-        let submit;
-        function myfunction(){
-alert('thank you for sharing your information');
-        }
+     document.getElementById("myButton").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert("thank you for sharing your info");
+}
+        
         conso
        </script>
         </body>
