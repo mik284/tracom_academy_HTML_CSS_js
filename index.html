@@ -5,39 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Tracom Academy website</title>
-    </head>
-    <body>
-        <header class="main-header">
-            <nav class="main-nav">
-                <img src="Assets/tracom_services_cover.jpg" alt="tracom-logo" class="main-logo" >
-                <ul id="main-nav-ul">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                </ul>
-            </nav>            
-        </header>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <img src="Assets/tracom_services_cover.jpg" alt="tracom-logo" class="main-logo">
+            <ul id="main-nav-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="contact-container">
-            <h2>Contact Us</h2>
-            <form id="contactForm" action="#" method="POST">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Enter Name">
-                </div>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="#" method="POST" onsubmit="showAlert(event)">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Name" required>
+            </div>
 
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" placeholder="Enter Email">
-                </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+            </div>
 
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="3" placeholder="Enter Message"></textarea>
-                </div>
-                <button type="submit">Send Message</button>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" placeholder="Enter Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
         </form>
     </div>
+
+    <!-- JavaScript to show alert -->
+    <script>
+        function showAlert(event) {
+            // Prevent form submission
+            event.preventDefault();
+
+            // Show an alert
+            alert("Your message has been sent successfully!");
+        }
+    </script>
 </body>
 </html>
