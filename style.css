@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
 
 
 .main-header{
@@ -39,11 +48,6 @@
 }
 .Contact{
     font-family: Arial, sans-serif;
-    background-color: whitesmoke;
-    background-image: url('image.jpg') alt ('C:\Users\Admin\Desktop\tracom_academy_HTML_CSS_js\image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
