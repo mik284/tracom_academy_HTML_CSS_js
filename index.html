@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Tracom Academy website</title>
+    <script src="https://kit.fontawesome.com/78c8b2ed08.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="main-header">
@@ -19,8 +20,60 @@
                 </ul>
             </nav>            
         </header>
+        <div class="contact_us">
+            <div class="write-us">
+                <h2>Write Us</h2>
+                <form action="contact-us">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name">
+                    <label for="Email">Email</label>
+                    <input type="email" placeholder="example@.gmail.com">
+                    <label for="Phone">Phone No</label>
+                    <input type="cont">
+                    <label for="Message">Message</label>
+                    <input type="text" placeholder="Message">
+                    <button type="submit" id="myButton"> submit</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="info-details">
+                    <h2>Contact Information</h2>
+                    <p class="text1">
+                        We're open for any suggestion or just have a chat
+                    </p>
+                </div>
+                <div class="address">
+                   <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address:</h3>
+                    <p>Springette office park, Nairobi </p>
+                </div>
+                <div class="address">
+                   <i class="fa-solid fa-phone"></i>
+                    <h3>Phone:</h3>
+                    <p>+254 20 242 9692</p>
+                </div>
+                <div class="address">
+                  <i class="fa-regular fa-paper-plane"></i>
+                    <h3>Email</h3>
+                    <p>sales@tracomprojects.co.ke</p>
+                </div>
+                <div class="address">
+                   <i class="fa-solid fa-earth-asia"></i>
+                    <h3>Website</h3>
+                    <p><a href="https://tracom.co.ke/" target="_blank">Tracom.co.ke</a></p>
+                </div>
+            </div>
+        </div>
 
        </body>
         
+       <script>
+     document.getElementById("myButton").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert("thank you for sharing your info");
+}
+    
+       </script>
         </body>
         </html>
