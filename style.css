@@ -5,31 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 
 html {
     font-size: 62.5%;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
-=======
-.body{
-    display: flex;
-    background-image: url('wp9237143-alone-pc-wallpapers.jpg');
-    justify-content: center;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(211, 126, 21);
->>>>>>> 619726c9f6aa5da7555e4c1dd7e38d57a1166e52
 }
 
 .main-header{
     padding: 4px; 
-<<<<<<< HEAD
     box-shadow: 0px 0px 10px #888888;
-=======
-   box-shadow: 0px 0px 10px #830a0a;
->>>>>>> 619726c9f6aa5da7555e4c1dd7e38d57a1166e52
 }
 
 .main-nav{
@@ -55,7 +40,6 @@ html {
 }
 
 #main-nav-ul li a:hover{
-<<<<<<< HEAD
     color: red;
 }
 
@@ -248,20 +232,3 @@ section{
     }
 
 }
-=======
-    color: red
-}
-
-.con{
-    background-color: pink;
-    width: 400px ;
-    height: 500px;
-    margin: auto;
-    border-radius: 30px;
-    padding-top: 50px;
-    margin-top: 100px;
-    
-
-}
-
->>>>>>> 619726c9f6aa5da7555e4c1dd7e38d57a1166e52
