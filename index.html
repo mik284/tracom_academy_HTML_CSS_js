@@ -1,28 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Tracom Academy website</title>
-</head>
-
+  </head>
 <body>
-    <header class="main-header">
-        <nav class="main-nav">
-            <img src="Assets/tracom_services_cover.jpg" alt="tracom-logo" class="main-logo">
-            <ul id="main-nav-ul">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+      <header class="main-header">
+     <nav class="main-nav">
+        <img src="Assets/tracom_services_cover.jpg" alt="tracom-logo" class="main-logo" >
+        <ul id="main-nav-ul">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">Team</a></li>
+             <li><a href="#">Contact us</a></li>
+        </ul>
+     </nav>            
     </header>
+ <div class="container">
+    <form action="contact_page">
+        <p><b>Personal Details</b></p><br>
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required><br>
+        <label for="sname">Surname</label><br>
+        <input type="text" id="sname" name="surname" placeholder="Enter your surname" required><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="Enter email" required><br>
+        <label for="phone number">Phone number</label><br>
+        <input type="number" id="phone number" name="phone number"><br><br>
 
+        <p><b>Gender</b></p>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="prefer not to say" name="Gender" value="prefer not to say">
+        <label for="prefer not to say">Prefer not to say</label><br><br>
+      
+        <label for="city"><b>Choose a city:</b></label><br>
+        <select id="city" name="city">
+            <option value="nakuru">Nakuru</option>
+            <option value="thika">Thika</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="ruiru">Kitale</option>
+        </select><br><br>
+  
+        <p><b>Contact Method</b></p>
+        <input type="radio" id="sms" name="contact method" value="sms">
+        <label for="sms">Sms</label><br>
+        <input type="radio" id="call" name="contact method" value="call"> 
+        <label for="call">Phone call</label><br><br>
+
+        
+        <label for="favoritesport"><b>Favorite sport</b></label><br>
+        <textarea name="sport" id="sport" placeholder="What's your favorite sport and why?"style="height: 50px; width: 200px;">
+        </textarea><br>
+
+        <input type="Submit" value="Submit">
+    </form>
+ </div>
+   
 </body>
-
-
 </html>
