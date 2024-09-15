@@ -1,0 +1,46 @@
+   <div class="contact-form">
+                <form action="#">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="text" placeholder="Full Name" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="Email Address" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-box">
+                            <div class="input-field">
+                                <input type="number" placeholder="Mobile Number" required>
+                                <span class="focus"></span>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" placeholder="Email Subject" required>
+                                <span class="focus"></span>
+                            </div>
+        
+                            <div class="textarea-field">
+                                <textarea name="" id="" cols="90" rows="10" placeholder="Your Message" required></textarea>
+                                <span class="focus"></span>
+                            </div>
+        
+                            <div class="btn-box btns">
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                </form>
+            <div class="info">
+                <h3>OUR LOCATION</h3>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127643.89008626284!2d36.69979812586946!3d-1.2482124095195704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x182f178f5812c587%3A0x74b11285536e78ff!2sSpringette%20office%20park%2C%20Nairobi!3m2!1d-1.248148!2d36.782212799999996!5e0!3m2!1sen!2ske!4v1725961638368!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <div class="foot">
+                    <i class='bx bx-phone'></i>
+                    <span>+254 20 242 9692</span>
+                    <i class='bx bxs-envelope'></i>
+                    <span>sales@tracomprojects.co.ke</span>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
